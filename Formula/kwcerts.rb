@@ -11,7 +11,7 @@ class Kwcerts < Formula
   on_macos do
     on_intel do
       url "https://github.com/klearwave/kwcerts/releases/download/v0.0.0/kwcerts_v0.0.0_Darwin_x86_64.tar.gz"
-      sha256 "fc82123ce5a0603740766cc879420ef91857c7bb732177be084d98209bdb80b2"
+      sha256 "4329b9404961487bbd321640399f73f950e8876d18ac872f71947f7253b73697"
 
       def install
         bin.install "kwcerts"
@@ -19,7 +19,7 @@ class Kwcerts < Formula
     end
     on_arm do
       url "https://github.com/klearwave/kwcerts/releases/download/v0.0.0/kwcerts_v0.0.0_Darwin_arm64.tar.gz"
-      sha256 "158a197c4180aab1a4df327d9a1c16ffe62a6595432d54f1c5596aa3fa439008"
+      sha256 "a57598d2cedd7521e6fb6a9209dc19c4c44a3584c4050e686285f8ed5d88cc11"
 
       def install
         bin.install "kwcerts"
@@ -31,7 +31,7 @@ class Kwcerts < Formula
     on_intel do
       if Hardware::CPU.is_64_bit?
         url "https://github.com/klearwave/kwcerts/releases/download/v0.0.0/kwcerts_v0.0.0_Linux_x86_64.tar.gz"
-        sha256 "252695b931ca9ad042839d1f4f5f7a6d307c1d0206e707baa8df62b5746bd6ea"
+        sha256 "19206e730b224100fdcd58461f581764b257ce1e8d540da23cb8484f0d86fb88"
 
         def install
           bin.install "kwcerts"
@@ -41,7 +41,7 @@ class Kwcerts < Formula
     on_arm do
       if Hardware::CPU.is_64_bit?
         url "https://github.com/klearwave/kwcerts/releases/download/v0.0.0/kwcerts_v0.0.0_Linux_arm64.tar.gz"
-        sha256 "e934160744bbebb17398ae2de1f3b6cda54ba2ba7d5039385f294313e0e5c431"
+        sha256 "17fcae9e31aacce2bbd7a186383226f19e7ddaad3f8b7395876c0d46fc3593f2"
 
         def install
           bin.install "kwcerts"
