@@ -1,0 +1,63 @@
+{
+  "name": "kwcerts",
+  "full_name": "kwcerts",
+  "tap": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Utility to manage self-signed certificates.",
+  "license": "Apache-2.0",
+  "homepage": "https://github.com/klearwave",
+  "versions": {
+    "stable": "0.1.0",
+    "head": null,
+    "bottle": false
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/klearwave/kwcerts/releases/download/v0.1.0/kwcerts_v0.1.0_Darwin_arm64.tar.gz",
+      "tag": null,
+      "revision": null,
+      "using": null,
+      "checksum": "d8e72a8e63fff9fb0136797a97b1645659c3cc54e52f26a0c9ce09231c108f40"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {},
+  "pour_bottle_only_if": null,
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "deprecation_replacement": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "disable_replacement": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": null,
+  "ruby_source_path": null,
+  "ruby_source_checksum": {
+    "sha256": "1358c1262df99761cfaf8348895957bf1c7ed49339a3a85ca7cd7c4c8852d509"
+  }
+}
