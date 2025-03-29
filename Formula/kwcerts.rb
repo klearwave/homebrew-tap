@@ -5,21 +5,21 @@
 class Kwcerts < Formula
   desc "Utility to manage self-signed certificates."
   homepage "https://github.com/klearwave"
-  version "0.1.0"
+  version "0.2.0"
   license "Apache-2.0"
 
   on_macos do
     on_intel do
-      url "https://github.com/klearwave/kwcerts/releases/download/v0.1.0/kwcerts_v0.1.0_Darwin_x86_64.tar.gz"
-      sha256 "a12c13250889f5426ed1859008f35908cbb33c48237370b6172adb4f3c3e14b8"
+      url "https://github.com/klearwave/kwcerts/releases/download/v0.2.0/kwcerts_v0.2.0_Darwin_x86_64.tar.gz"
+      sha256 "67792a2d886a519467b2b346d7312f3bb847bc9727c93af09788a528d5662cf3"
 
       def install
         bin.install "kwcerts"
       end
     end
     on_arm do
-      url "https://github.com/klearwave/kwcerts/releases/download/v0.1.0/kwcerts_v0.1.0_Darwin_arm64.tar.gz"
-      sha256 "324204b46d528328c11f75e3f9d94ba54b6abcbdde3d2c6e6d6ab0853df1b790"
+      url "https://github.com/klearwave/kwcerts/releases/download/v0.2.0/kwcerts_v0.2.0_Darwin_arm64.tar.gz"
+      sha256 "fc433f968e84af023a345907b6eb87f12bea79763621e613fb19082940e9f2b3"
 
       def install
         bin.install "kwcerts"
@@ -30,8 +30,8 @@ class Kwcerts < Formula
   on_linux do
     on_intel do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/klearwave/kwcerts/releases/download/v0.1.0/kwcerts_v0.1.0_Linux_x86_64.tar.gz"
-        sha256 "37094060e246b52fff27a074718b9712ffbbcc36c523517e88be359d88302189"
+        url "https://github.com/klearwave/kwcerts/releases/download/v0.2.0/kwcerts_v0.2.0_Linux_x86_64.tar.gz"
+        sha256 "05f677fcb223d5e8f45f089950b9107477ff071411ac07580de0afa1a26f1686"
 
         def install
           bin.install "kwcerts"
@@ -40,8 +40,8 @@ class Kwcerts < Formula
     end
     on_arm do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/klearwave/kwcerts/releases/download/v0.1.0/kwcerts_v0.1.0_Linux_arm64.tar.gz"
-        sha256 "f38b03eb2ea7cd8909db28dc6ffae49be1f548f604e39ad4331419c67ce82d1f"
+        url "https://github.com/klearwave/kwcerts/releases/download/v0.2.0/kwcerts_v0.2.0_Linux_arm64.tar.gz"
+        sha256 "80095d6cb2bf397ebdcdae7d92d4926e9c8efc8fc45e45e23385bb488777c362"
 
         def install
           bin.install "kwcerts"
