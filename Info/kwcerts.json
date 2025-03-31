@@ -9,17 +9,17 @@
   "license": "Apache-2.0",
   "homepage": "https://github.com/klearwave",
   "versions": {
-    "stable": "0.2.0",
+    "stable": "0.3.0",
     "head": null,
     "bottle": false
   },
   "urls": {
     "stable": {
-      "url": "https://github.com/klearwave/kwcerts/releases/download/v0.2.0/kwcerts_v0.2.0_Darwin_arm64.tar.gz",
+      "url": "https://github.com/klearwave/kwcerts/releases/download/v0.3.0/kwcerts_v0.3.0_Darwin_arm64.tar.gz",
       "tag": null,
       "revision": null,
       "using": null,
-      "checksum": "fc433f968e84af023a345907b6eb87f12bea79763621e613fb19082940e9f2b3"
+      "checksum": "51c15b00d54eabf9b7d768b458b825541e422320e0035c9e32110f1c50f47a9c"
     }
   },
   "revision": 0,
@@ -58,6 +58,6 @@
   "tap_git_head": null,
   "ruby_source_path": null,
   "ruby_source_checksum": {
-    "sha256": "022678bc840228fb9521855fb1fcfd0f696db68f2e18bb5a26ed63a6e3318dee"
+    "sha256": "2169204725edf05d8cb1812df19e8bdfac3aea0aebcbdb82977634ce46bb8476"
   }
 }
